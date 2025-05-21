@@ -23,7 +23,7 @@ factorial(A,B) :-
 
 
 ### Output:
-![Uploading 369880959-67ba12ae-9890-4b8a-a405-aa09bc36ef78.png…]()
+
 ![369880959-67ba12ae-9890-4b8a-a405-aa09bc36ef78-1](https://github.com/user-attachments/assets/7c55d530-82bd-467c-bc5a-b0058dcf3ade)
 
 
