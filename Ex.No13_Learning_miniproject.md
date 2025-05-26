@@ -1,6 +1,6 @@
 # Ex.No: 10 Learning – Use Supervised Learning  
                                                                            
-### REGISTER NUMBER : 212222220006
+### REGISTER NUMBER : 212222220018
 ### AIM:
 To write a program to train the classifier for Plant Growth Data using random forest classifier.
 
