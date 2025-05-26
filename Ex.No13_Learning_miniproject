@@ -1,26 +1,20 @@
-# Ex.No: 13 Student performance prediction using machine learning
-### DATE:  13/05/2025                                                                          
-### REGISTER NUMBER : 212222040009
-### AIM: 
-To write a program to train the classifier for Student performance prediction using machine learning
+# Ex.No: 10 Learning – Use Supervised Learning  
+                                                                           
+### REGISTER NUMBER : 212222220006
+### AIM:
+To write a program to train the classifier for Plant Growth Data using random forest classifier.
+
 ###  Algorithm:
-1.Load the dataset from CSV
-
-2.Clean the data (remove ID, encode text fields)
-
-3.Label students as High or Low Performer based on CGPA ≥ 3.0
-
-4.Split data into training and testing sets
-
-5.Train a Random Forest Classifier model
-
-6.Evaluate the model’s accuracy
-
-7.Take user input (program, gender, CGPA levels, etc.)
-
-8.Predict student performance using the trained model
-
-9.Display result (High Performer  / Low Performer )
+1.Load Data: Load the dataset and split it into features (X) and target (y). 
+2.Train-Test Split: Split the data into training and testing sets. 
+3.Handle Imbalance: Apply SMOTE to balance the training set.
+4.Preprocess: Use a column transformer to scale numerical features and one-hot encode categorical
+features. 
+5.Pipeline Setup: Build a pipeline with preprocessing and a RandomForestClassifier.
+6.Hyperparameter Tuning: Use GridSearchCV to tune hyperparameters like n_estimators,
+max_depth, etc.
+7.Model Training: Train the model on the balanced training data. 8.Evaluate: Predict
+on test data, and evaluate using accuracy, confusion matrix, and classification report.
 
 
 ### Program:
@@ -57,7 +51,12 @@ for name, (clf, params) in classifiers.items():
     accuracy = accuracy_score(y_test, y_pred)
     print(f"{name}: Best Params: {grid_search.best_params_}, Accuracy: {accuracy:.4f}")
 ```
+
+
 ### Output:
+![384888356-b682f907-ae8d-462e-92de-0681ada725a6](https://github.com/user-attachments/assets/967b3850-e42e-4940-a64c-2055c2024fac)
+![384888449-c69050ad-c5ef-46c8-9410-388b304ca9d6](https://github.com/user-attachments/assets/3dbba707-4e4c-4bc5-97c9-aad09719d044)
+
 
 
 ### Result:
