@@ -1,6 +1,6 @@
 # Ex.No: 13 Student performance prediction using machine learning
 ### DATE:  13/05/2025                                                                          
-### REGISTER NUMBER : 212222040009
+### REGISTER NUMBER : 212222220018
 ### AIM: 
 To write a program to train the classifier for Student performance prediction using machine learning
 ###  Algorithm:
@@ -95,7 +95,7 @@ print(f"\n Prediction Result: {result}")
 ```
 
 ### Output:
-
+![image](https://github.com/user-attachments/assets/33759ef0-c029-4a35-ba6d-24645e0a8ee3)
 
 ### Result:
 Thus the system was trained successfully and the prediction was carried out.
