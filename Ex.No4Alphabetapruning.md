@@ -15,7 +15,31 @@ Write a Alpha beta pruning algorithm to find the optimal value of MAX Player fro
 9.  Stop the program. 
 
 ### Program:
+```
+def minimax(depth, index, is_max, values, alpha, beta):
+    if depth == 3:
+        return values[index]
 
+    func = max if is_max else min
+    best = float('-inf') if is_max else float('inf')
+
+    for i in range(2):
+        val = minimax(depth + 1, index * 2 + i, not is_max, values, alpha, beta)
+        best = func(best, val)
+
+        if is_max:
+            alpha = max(alpha, best)
+        else:
+            beta = min(beta, best)
+
+        if beta <= alpha:
+            break
+
+    return best
+
+values = [3, 5, 6, 9, 1, 2, 0, -1]
+print("The optimal value is:", minimax(0, 0, True, values, float('-inf'), float('inf')))
+```
 
 
 
@@ -28,6 +52,7 @@ Write a Alpha beta pruning algorithm to find the optimal value of MAX Player fro
 
 ### Output:
 
+![image](https://github.com/user-attachments/assets/fea50120-74a1-442b-af9d-6a381d4f7284)
 
 
 ### Result:
