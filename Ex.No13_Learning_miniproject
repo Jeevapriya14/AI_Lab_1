@@ -58,7 +58,7 @@ for name, (clf, params) in classifiers.items():
     print(f"{name}: Best Params: {grid_search.best_params_}, Accuracy: {accuracy:.4f}")
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/0296341a-71fa-4678-8383-030bafe9cafc)
+
 
 ### Result:
 Thus the system was trained successfully and the prediction was carried out.
