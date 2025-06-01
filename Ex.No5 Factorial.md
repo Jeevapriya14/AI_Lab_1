@@ -3,12 +3,8 @@
 ### REGISTER NUMBER : 212222220018
 ### AIM: 
 To  write  a logic program for finding the factorial of given number using SWI-PROLOG. 
-#####
-######
-#####
-###
-#####
-####
+<be>
+<be>
 
 ### Algorithm:
 1. STEP 1: Start the program
