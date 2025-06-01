@@ -21,10 +21,17 @@ factorial(A,B) :-
  B is A*D.
 ```
 
+###
+###
+###
+###
 
 ### Output:
 
 ![image](https://github.com/user-attachments/assets/554d0048-8601-477d-bb93-bc26c90e1f97)
+###
+###
+###
 
 
 ### Result:
